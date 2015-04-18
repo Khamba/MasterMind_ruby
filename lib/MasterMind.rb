@@ -14,7 +14,7 @@ module MasterMind
 		code_arr = codemaker.set_code
 		puts "________________________________________________________"
 		puts "The Computer has set the code."
-		 puts "The code is #{code_arr[0]} #{code_arr[1]} #{code_arr[2]} #{code_arr[3]}"
+		# puts "The code is #{code_arr[0]} #{code_arr[1]} #{code_arr[2]} #{code_arr[3]}"
 		puts ""
 		turns_left = 12
 		board = Board.new
